@@ -18,7 +18,8 @@ body {
 a {
   text-decoration: none;
   color: #999;
-}
+} 
+
 a:hover {
   color: #6633ff;
 }
@@ -33,6 +34,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -47,12 +49,15 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color: white
 }
@@ -64,9 +69,11 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -75,9 +82,11 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #EBDEF0;
   color: black;
@@ -86,10 +95,12 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
 .location {
   background-color: #8E44AD;
   color: white;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -100,6 +111,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #ff99ff;
 }
@@ -158,11 +170,11 @@ a.social {
 a.twitter {
   background-image: url(images/twitter.svg);
 }
+
 a.facebook {
   background-image: url(images/facebook.png);
 }
 
-}
 a.social:hover {
   opacity: 1;
 }
@@ -174,17 +186,24 @@ img {
 	max-width: 100%;
 }
 
-#gallery{
+#gallery {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 
 #gallery li {
   float: left;
-  max-width: width: 45%;
+  max-width: 45%;
   margin: 2.5%;
-  color: #000000;
+}
+
+#gallery li img {
+ height: 45%;
+ width: 45%;
+ height: 300px;
+ width: 300px;
 }
 
 #gallery li a p {
@@ -192,19 +211,13 @@ img {
   padding: 5%;
   font-size: 0.75em;
   color: #000000;
+
 }
 
- #gallery li {
-	width: 28.333%;
-	height: auto;
-	
-  }
-  
-  #gallery li:nth-child(4n) {
+#gallery li:nth-child(3n) {
     clear: left;
-  }
-
-
+}
+  
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -248,10 +261,5 @@ img {
     margin: 40px auto;
   }
   
-  }
-  
-  
-  
-  
-}
+ }
 
